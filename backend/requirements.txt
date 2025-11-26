@@ -1,0 +1,34 @@
+# Core
+fastapi
+uvicorn[standard]
+python-dotenv
+python-multipart
+
+# Database
+sqlalchemy
+alembic
+psycopg2-binary
+asyncpg
+#psycopg[binary,async]
+
+# Authentication & Security
+passlib[bcrypt]
+python-jose[cryptography]
+
+# Data Validation
+pydantic
+pydantic-settings
+email-validator
+
+# Async
+anyio
+
+# Utilities
+python-dateutil
+python-magic
+
+# ML & Data Science
+numpy
+pandas
+scikit-learn
+joblib
